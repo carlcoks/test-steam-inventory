@@ -1,0 +1,46 @@
+// Options
+$enable-rem: false;
+
+// Colors
+$black: #000;
+$black2: #262626;
+
+$dark: #303030;
+
+$grey: #646464;
+
+$white: #fff;
+
+$primary: #7A53B7;
+
+$red: #FF4858;
+
+$yellow: #F8DA48;
+
+// Spacing
+$spacer: 16px;
+// Body
+$body-bg: $white;
+$body-color: $dark;
+
+// Links
+$link-color: $dark;
+
+// Grid
+$grid-gutter: 60px;
+$grid-columns: 12;
+
+// Fonts
+$font-family: $RT;
+$font-size: 1rem;
+$font-weight: 400;
+$line-height: 1rem;
+
+// Layout
+$col-grid: 12;
+$site-padding: 18px;
+$min-width: 320px;
+$max-width: 1244 + $site-padding * 2; // 1240
+
+// Transitions
+$transition: all 0.3s;

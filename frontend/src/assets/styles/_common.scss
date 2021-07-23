@@ -1,0 +1,16 @@
+.container {
+  max-width: $max-width;
+  width: 100%;
+  padding: 0px $site-padding;
+  margin: 0 auto;
+  &-full {
+    @extend .container;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 15px;
+  }
+}

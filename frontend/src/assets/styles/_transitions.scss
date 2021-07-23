@@ -1,0 +1,43 @@
+// Слайд справа - влево
+.slide-left-enter-active, .slide-left-leave-active {
+  transition: all .3s;
+}
+.slide-left-enter, .slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+// Слайд слева - направо
+.slide-right-enter-active, .slide-right-leave-active {
+  transition: all .3s;
+}
+.slide-right-enter, .slide-right-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+// Слайд снизу - вверх
+.slide-top-enter-active, .slide-top-leave-active {
+  transition: all .3s;
+}
+.slide-top-enter, .slide-top-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+// Слайд сверху -вниз
+.slide-bottom-enter-active, .slide-bottom-leave-active {
+  transition: all .3s;
+}
+.slide-bottom-enter, .slide-bottom-leave-to {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+// Плавное скрытие / появление
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

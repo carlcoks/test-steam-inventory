@@ -1,0 +1,12 @@
+@import 'settings';
+// @import 'normalize-scss/normalize';
+@import 'base';
+@import 'common';
+
+@import 'components/ui/all';
+@import 'components/layout/all';
+@import 'components/page-parts/all';
+@import 'components/modals/all';
+@import 'components/shared/all';
+
+@import 'pages/all';

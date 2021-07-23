@@ -1,0 +1,32 @@
+.inpt {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  &__input {
+    width: 100%;
+    background: none;
+    border: none;
+    transition: all .3s;
+
+    &--default {
+      height: 64px;
+      padding: 24px 16px 8px;
+      font-size: 18px;
+      line-height: 24px;
+      color: $dark;
+      border-radius: 8px;
+      background: #f5f8fb;
+      &:disabled {
+        background: #f5f8fb;
+      }
+      &:focus {
+        background: $white;
+        border: 1px solid #303c53;
+      }
+    }
+
+    &--center {
+      text-align: center;
+    }
+  }
+}

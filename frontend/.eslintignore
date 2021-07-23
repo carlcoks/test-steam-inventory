@@ -1,0 +1,6 @@
+assets
+static
+node_modules
+.nuxt
+dist
+utils
